@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+ <title>Login Page</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">	
+
+</head>
+
+<body>
+	<section class="sec1">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-12">
+ 					<div class="col-md-offset-3 col-md-6 sec1head">
+						<div class="sec1head1">
+							<p class=""><img src="img/logo.png" class="img-responsive logoicon"/></p>		
+						</div>	
+						<div class="login-form">
+							<div class="">
+								<div class="group">								
+									<label for="user" class="label sec1label"><span class="glyphicon glyphicon-user"></span> Username</label>
+									<input id="user" type="text" class="input" placeholder="Jacklio@gmail.com">
+								</div>
+								<div class="group ico-rel">
+									<label for="pass" class="label sec1label1"><i class="fa fa-key"></i> Password</label>
+									<i class="fa fa-eye ico-eye"></i>
+									<input id="pass" type="password" class="input"   placeholder="**************">
+								</div>
+								<div class="foot-lnk">
+									<a href="#forgot">Forgot Password?</a>
+								</div>	
+								<div class="group">
+									<button  type="submit" class="button btn-5">LogIn</button>
+								</div>
+								<div class="sec1head2 text-center">
+									<a href="#">Don’t have an account ? Create Now</a>
+								</div>
+							</div>
+						</div>	
+
+						
+ 					</div>				
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</section>
+    <script type="text/javascript" src="js/vendor/jquery-1.11.2.min.js"></script>
+<script>
+    $(".fa-eye").click(function(){
+       $("#pass").attr('type','text');
+    });
+    
+     
+    
+    
+   
+     
+</script>
+</body>
+
+
+
+</html>
